@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
 import Typical from 'react-typical';
 import headerImg from '../assets/img/header-img.svg';
-import whatsapp from '../assets/img/square-whatsapp.svg';
+import whatsapp from '../assets/img/icons8-whatsapp.svg';
 import {motion} from 'framer-motion';
 
 

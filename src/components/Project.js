@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import projImg1 from "../assets/img/fitclub.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/design-home-light.jpg";
 import projImg3 from "../assets/img/project-img3.png";
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 
@@ -17,34 +17,34 @@ const Project = () => {
         },     
         {
             title: "Business Startup",
-            description: "Design & Development", 
+            description: "Click to view site", 
             imgUrl: projImg2,
-            link: 'http://fitclubbymoses.pages.dev/'  
+            link: 'https://countryappbymoses.netlify.app/'  
         },
         {
             title: "Business Startup",
-            description: "Design & Development",
+            description: "Click to view site",
             imgUrl: projImg3,
-            link: 'http://fitclubbymoses.pages.dev/'
+            link: '#'
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-            link: 'http://fitclubbymoses.pages.dev/'
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-            link: 'http://fitclubbymoses.pages.dev/'
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-            link: 'http://fitclubbymoses.pages.dev/'  
-        },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg1,
+        //     link: '#'
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg2,
+        //     link: '#'
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        //     link: '#'  
+        // },
     ];
     return (
         <section className='project' id='projects'>
@@ -59,12 +59,12 @@ const Project = () => {
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
+                                {/* <Nav.Item>
                                     <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                                </Nav.Item>
+                                </Nav.Item> */}
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey='first'>
@@ -80,8 +80,8 @@ const Project = () => {
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey='second'> somthing there</Tab.Pane>
-                                <Tab.Pane eventKey='third'>something there</Tab.Pane>
+                                {/* <Tab.Pane eventKey='second'> somthing there</Tab.Pane>
+                                <Tab.Pane eventKey='third'>something there</Tab.Pane> */}
                             </Tab.Content>
                         </Tab.Container>
                     </Col>

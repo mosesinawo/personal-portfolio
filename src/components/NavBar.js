@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon1 from '../assets/img/icons8-linkedin-circled.svg';
+import navIcon2 from '../assets/img/icons8-github.svg';
+import navIcon3 from '../assets/img/icons8-twitter.svg';
 
 const NavBar = () => {
 
@@ -48,14 +48,16 @@ const NavBar = () => {
                         </Nav>
                         <span className='navbar-text'>
                             <div className='social-icon'>
-                                <a href='#'> <img src={navIcon1} alt="nav1"/></a>  
-                                <a href='#'> <img src={navIcon2} alt="nav2"/></a>
-                                <a href='#'> <img src={navIcon3} alt="nav3"/></a>  
+                                <a href='https://www.linkedin.com/in/inawo-moses-5aa01b24a'> <img className='icons' src={navIcon1} alt="nav1"/></a>  
+                                <a href='https://github.com/mosesinawo'> <img className='icons'  src={navIcon2} alt="nav2"/></a>
+                                <a href='https://twitter.com/Metallurgst'> <img className='icons'  src={navIcon3} alt="nav3"/></a>  
                             </div>
                             <button className='vvd' onClick={() => console.log('connect')}>
+                                <a className='connect' href='https://wa.link/r41k71'>
                                 <span >
                                     Contact Me
                                 </span>
+                                </a>
                             </button>
                         </span>
                     </Navbar.Collapse>

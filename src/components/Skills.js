@@ -2,9 +2,12 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from '../assets/img/meter1.svg'
-import meter2 from '../assets/img/meter2.svg'
-import meter3 from '../assets/img/meter3.svg'
+import meter1 from '../assets/img/icons8-html-5.png';
+import meter2 from '../assets/img/icons8-css3.svg'
+import meter3 from '../assets/img/icons8-javascript-96.png';
+import meter4 from '../assets/img/icons8-react.svg'
+import meter5 from '../assets/img/icons8-bootstrap.svg'
+import meter6 from '../assets/img/icons8-node-js.svg'
 import colorSharp from '../assets/img/color-sharp.png';
 
 const Skills = () => {
@@ -42,20 +45,29 @@ const Skills = () => {
                                 <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                     <div className='item'>
                                         <img src={meter1} alt='meter1' />
-                                        <h5>Web Develpoment</h5>
+                                        <h5>Html</h5>
                                     </div>
                                     <div className='item'>
                                         <img src={meter2} alt='meter2' />
-                                        <h5>Web Develpoment</h5>
+                                        <h5>Css</h5>
                                     </div>
                                     <div className='item'>
                                         <img src={meter3} alt='meter3' />
-                                        <h5>Web Develpoment</h5>
+                                        <h5>Javascript</h5>
                                     </div>
                                     <div className='item'>
-                                        <img src={meter1} alt='meter' />
-                                        <h5>Web Develpoment</h5>
+                                        <img src={meter4} alt='meter' />
+                                        <h5>React js</h5>
                                     </div>
+                                    <div className='item'>
+                                        <img src={meter5} alt='meter' />
+                                        <h5>Bootstrap</h5>
+                                    </div>
+                                    <div className='item'>
+                                        <img src={meter6} alt='meter' />
+                                        <h5>Node js</h5>
+                                    </div>
+                                   
                                 </Carousel>
                             </div>
                         </Col>
